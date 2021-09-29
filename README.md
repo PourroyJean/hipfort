@@ -11,7 +11,7 @@ Then build, install, and test hipfort from source with the commands below:
 
 ```shell
 git clone https://github.com/ROCmSoftwarePlatform/hipfort
-mkdir build ; cd build
+cd hipfort ; mkdir build ; cd build
 cmake -DHIPFORT_INSTALL_DIR=/tmp/hipfort ..
 make install
 export PATH=/tmp/hipfort/bin:$PATH
